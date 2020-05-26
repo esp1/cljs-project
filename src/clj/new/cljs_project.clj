@@ -8,6 +8,7 @@
         data   (project-data name)]
     (println "Generating cljs project:" name)
     (->files data
+             [".gitignore" (render ".gitignore" data)]
              ["deps.edn" (render "deps.edn" data)]
              ["package.json" (render "package.json" data)]
              ["shadow-cljs.edn" (render "shadow-cljs.edn" data)]
