@@ -1,6 +1,6 @@
 # cljs-project
 
-My ClojureScript project template. Uses shadow-cljs build, tailwind css, and the helix React library.
+My ClojureScript project template. Uses [shadow-cljs](https://shadow-cljs.github.io/) build, [tailwind](https://tailwindcss.com/) css, and the [helix](https://github.com/Lokeh/helix) React library.
 
 ## Usage
 
