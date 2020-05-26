@@ -1,10 +1,8 @@
 # cljs-project
 
-FIXME: my new template.
+My ClojureScript project template. Uses shadow-cljs build, tailwind css, and the helix React library.
 
 ## Usage
-
-FIXME: write usage documentation!
 
 Build a deployable jar of this template:
 
@@ -20,7 +18,7 @@ Deploy it to Clojars -- needs `CLOJARS_USERNAME` and `CLOJARS_PASSWORD` environm
 
 ## License
 
-Copyright © 2020 Edwin
+Copyright © 2020 Edwin Park
 
 Distributed under the Eclipse Public License either version 1.0 or (at
 your option) any later version.
