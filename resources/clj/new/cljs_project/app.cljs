@@ -8,7 +8,7 @@
                   "flex"
                   "justify-center"
                   "items-center"
-                  "text-4xl"]}
+                  "text-6xl"]}
          "{{namespace}}"))
 
 (defn render []
