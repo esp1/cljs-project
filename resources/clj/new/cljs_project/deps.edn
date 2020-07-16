@@ -1,7 +1,7 @@
 {:paths ["src" "resources"]
 
  :deps {org.clojure/clojurescript {:mvn/version "1.10.764"}
-        thheller/shadow-cljs {:mvn/version "2.9.9"}
+        thheller/shadow-cljs {:mvn/version "2.10.14"}
         lilactown/helix {:mvn/version "0.0.11"}}
 
  :aliases {:test {:extra-paths ["test"]
@@ -12,8 +12,8 @@
                     :main-opts ["-m" "cognitect.test-runner"
                                 "-d" "test"]}
            :jar {:extra-deps {seancorfield/depstar {:mvn/version "1.0.94"}}
-                 :main-opts ["-m" "hf.depstar.jar" "cljs-project.jar"]}
+                 :main-opts ["-m" "hf.depstar.jar" "{{namespace}}.jar"]}
            :install {:extra-deps {deps-deploy {:mvn/version "0.0.9"}}
-                     :main-opts ["-m" "deps-deploy.deps-deploy" "install" "cljs-project.jar"]}
+                     :main-opts ["-m" "deps-deploy.deps-deploy" "install" "{{namespace}}.jar"]}
            :deploy {:extra-deps {deps-deploy {:mvn/version "0.0.9"}}
-                    :main-opts ["-m" "deps-deploy.deps-deploy" "deploy" "cljs-project.jar"]}}}
+                    :main-opts ["-m" "deps-deploy.deps-deploy" "deploy" "{{namespace}}.jar"]}}}
